@@ -1,12 +1,14 @@
 # Dependencies
 node_modules/
-frontend/node_modules/
 
 # Build outputs
 dist/
+
+# Frontend build outputs (code vẫn được track)
 frontend/.next/
 frontend/out/
 frontend/build/
+frontend/node_modules/
 
 # Environment variables
 .env
